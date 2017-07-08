@@ -1,0 +1,22 @@
+# invalidate irritative vbell 
+vbell off
+
+# more scrollback for copy and paste
+defscrollback 100000
+
+# autodetach when unexpected disconnection
+autodetach on
+
+# show unlderbar status
+hardstatus on
+hardstatus alwayslastline '%{=b .b}%H%{-} %L=%-w%45L>%{=u kg}%n %t%{-}%+w %-17<%=%Y/%m/%d %02c:%s'
+caption always '%?%F%{=d kw}%:%{= kw}%?%2n%f%07=%t%= -----------------------------------------------------------------------------------------------------------'
+
+sorendition "=b wk"
+
+escape ^Qq
+
+bind j focus down
+bind k focus up
+bind t focus top
+bind b focus bottom
